@@ -1,0 +1,242 @@
+:root {
+	--primary-pink: hsl(322, 100%, 66%);
+	--neutral-very-dark-cyan: hsl(192, 100%, 9%);
+	--neutral-grayish-blue: hsl(208, 11%, 55%);
+
+	--headings: 'Poppins', sans-serif;
+	--body-fonts: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--body-fonts);
+	box-sizing: border-box;
+	height: auto;
+}
+
+h1 {
+	font-family: var(--headings);
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 50px;
+}
+
+p {
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	width: 200px;
+	height: 35px;
+	margin: 25px 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+	place-items: left;
+}
+
+/* ARTICLE */
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container h1 {
+	text-align: center;
+	margin: 60px 0;
+}
+
+#description p {
+	margin-bottom: 60px;
+	padding-bottom: 80px;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+/* FORM */
+
+#signup-form {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	display: block;
+	width: 16rem;
+	height: 3rem;
+	font-family: var(--body-fonts);
+	font-size: 1rem;
+	margin-top: 5px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 4px 4px 10px #bbbbbb;
+}
+
+button {
+	margin-left: 15px;
+	width: 10rem;
+	height: 3.5rem;
+	font-family: var(--body-fonts);
+	font-size: 1rem;
+	background-color: var(--primary-pink);
+	border-radius: 10px;
+	border: none;
+	color: #eeeeee;
+	box-shadow: 4px 4px 10px #bbbbbb;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--neutral-very-dark-cyan);
+}
+
+/* FOOTER */
+
+footer {
+	background-color: var(--neutral-very-dark-cyan);
+}
+
+.menu {
+	list-style: none;
+}
+
+.list {
+	padding-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--neutral-grayish-blue);
+	padding-top: 20px;
+}
+
+/* ------------------ NAVBAR ------------------- */
+
+#navbar .list:hover {
+	text-transform: uppercase;
+}
+
+#navbar .list a:hover {
+	color: var(--primary-pink);
+	font-weight: 700;
+}
+
+/*  ----------------------- SOCIAL MEDIA ---------------------- */
+
+#social-media .menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#social-media .list {
+	font-size: 2.5rem;
+	padding-bottom: 35px;
+	padding-top: 40px;
+}
+
+#social-media .list a:hover {
+	color: var(--primary-pink);
+	font-weight: bolder;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.8rem;
+	color: var(--neutral-grayish-blue);
+}
+
+footer p a {
+	color: var(--primary-pink);
+}
+
+.attribution {
+	padding-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+	.logo {
+		width: 250px;
+		height: 45px;
+	}
+
+	/* -------------------- FORM ----------------------- */
+
+	input {
+		width: 25rem;
+		height: 3.5rem;
+	}
+
+	button {
+		margin-left: 20px;
+		width: 12rem;
+		height: 4.1rem;
+	}
+
+	/* --------------------- FOOTER --------------------- */
+
+	/* NAVBAR */
+
+	#navbar .menu {
+		display: flex;
+		position: relative;
+		bottom: 70px;
+	}
+
+	.push {
+		margin-left: auto;
+	}
+
+	#navbar .list {
+		padding-right: 20px;
+	}
+
+	#navbar .list a {
+		font-size: 1.2rem;
+	}
+
+	/* SOCIAL MEDIA */
+
+	#social-media {
+		display: flex;
+		position: relative;
+		bottom: 80px;
+	}
+
+	#social-media .list {
+		font-size: 3rem;
+		padding-right: 50px;
+	}
+
+	footer p {
+		text-align: right;
+		padding-right: 25px;
+	}
+
+	.attribution {
+		padding-bottom: 25px;
+	}
+}
