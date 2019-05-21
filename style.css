@@ -57,7 +57,7 @@ img {
 	margin: 60px 0;
 }
 
-#description p {
+.description p {
 	margin-bottom: 60px;
 	padding-bottom: 80px;
 	text-align: center;
@@ -66,7 +66,7 @@ img {
 
 /* FORM */
 
-#signup-form {
+.signup-form {
 	margin-top: 100px;
 	margin-bottom: 150px;
 }
@@ -128,29 +128,29 @@ a {
 
 /* ------------------ NAVBAR ------------------- */
 
-#navbar .list:hover {
+.navbar .list:hover {
 	text-transform: uppercase;
 }
 
-#navbar .list a:hover {
+.navbar .list a:hover {
 	color: var(--primary-pink);
 	font-weight: 700;
 }
 
 /*  ----------------------- SOCIAL MEDIA ---------------------- */
 
-#social-media .menu {
+.social-media .menu {
 	display: flex;
 	justify-content: space-evenly;
 }
 
-#social-media .list {
+.social-media .list {
 	font-size: 2.5rem;
 	padding-bottom: 35px;
 	padding-top: 40px;
 }
 
-#social-media .list a:hover {
+.social-media .list a:hover {
 	color: var(--primary-pink);
 	font-weight: bolder;
 }
@@ -200,7 +200,7 @@ footer p a {
 
 	/* NAVBAR */
 
-	#navbar .menu {
+	.navbar .menu {
 		display: flex;
 		position: relative;
 		bottom: 70px;
@@ -210,23 +210,23 @@ footer p a {
 		margin-left: auto;
 	}
 
-	#navbar .list {
+	.navbar .list {
 		padding-right: 20px;
 	}
 
-	#navbar .list a {
+	.navbar .list a {
 		font-size: 1.2rem;
 	}
 
 	/* SOCIAL MEDIA */
 
-	#social-media {
+	.social-media {
 		display: flex;
 		position: relative;
 		bottom: 80px;
 	}
 
-	#social-media .list {
+	.social-media .list {
 		font-size: 3rem;
 		padding-right: 50px;
 	}
